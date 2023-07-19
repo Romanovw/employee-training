@@ -1,3 +1,1 @@
 # employee-training
-# Check
-# Work
