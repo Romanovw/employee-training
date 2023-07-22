@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/employee-training/static/css/main.5470fab1.css",
+    "main.js": "/employee-training/static/js/main.22d14d52.js",
+    "static/js/787.78ed7b27.chunk.js": "/employee-training/static/js/787.78ed7b27.chunk.js",
+    "index.html": "/employee-training/index.html",
+    "main.5470fab1.css.map": "/employee-training/static/css/main.5470fab1.css.map",
+    "main.22d14d52.js.map": "/employee-training/static/js/main.22d14d52.js.map",
+    "787.78ed7b27.chunk.js.map": "/employee-training/static/js/787.78ed7b27.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5470fab1.css",
+    "static/js/main.22d14d52.js"
+  ]
+}
