@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="links-container">
-        <a href="#" className="button1">KEBAB NA CIENKIM CIEĆCIE</a>
+        <a href="#" className="button1">KEBAB NA CIENKIM CIEŚCIE</a>
         <a href="#" className="button2">TORTILLA</a>
         <a href="#" className="button3">KEBAB W BULCE</a>
         <a href="#" className="button4">Burgery</a>
