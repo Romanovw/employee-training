@@ -1,5 +1,0 @@
-{
-    "homepage": "https://romanovw.github.io/employee-training/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
