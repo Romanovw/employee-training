@@ -1,0 +1,99 @@
+.links-container {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    overflow: hidden;
+}
+
+.links-container a {
+    display: flex;
+    height: 97%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+}
+
+.button1 {
+    background-color: #6D0715;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+}
+
+.button2 {
+    background-color: #E800A4;
+}
+
+.button3 {
+    background-color: #E2741B;
+}
+
+.button4 {
+    background-color: #008A00;
+}
+
+.button5 {
+    background-color: #025FEB;
+}
+
+.button6 {
+    background-color: #0564FA;
+}
+
+.button7 {
+    background-color: #6200BD;
+}
+
+.button8 {
+    background-color: #5D6CFC;
+}
+
+.button9 {
+    background-color: #18A028;
+}
+
+.button10 {
+    background-color: #048E6D;
+}
+
+.button11 {
+    background-color: #3802F7;
+}
+
+.button12 {
+    background-color: #87561C;
+}
+
+.button13 {
+    background-color: #F5795D;
+}
+
+.button14 {
+    background-color: #DB02F0;
+}
+
+.button15 {
+    background-color: #04B202;
+}
+
+.button16 {
+    background-color: #04B202;
+}
+
+.button17 {
+    background-color: #04B202;
+}
+
+.button18 {
+    background-color: #04B202;
+}
