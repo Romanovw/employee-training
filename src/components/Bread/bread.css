@@ -1,0 +1,59 @@
+.links-container-b {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.links-container-b a {
+    display: flex;
+    height: 99%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button1b {
+    background-color: #1727d3;
+}
+
+.button2b {
+    background-color: #3246de;
+}
+
+.button3b {
+    background-color: #12AF29;
+}
+
+.button4b {
+    background-color: #0BD914;
+}
+
+.button5b {
+    background-color: #E93A59;
+}
+
+.button6b {
+    background-color: #12B5F0;
+}
+
+.button7b {
+    background-color: #802946;
+}
+
+.button8b {
+    background-color: #058F42;
+}
+
+.button9b {
+    background-color: #07A80D;
+}

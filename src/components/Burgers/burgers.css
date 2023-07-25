@@ -1,0 +1,40 @@
+.links-container-brg {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.links-container-brg a {
+    display: flex;
+    height: 99%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button1brg {
+    background-color: #0EB913;
+}
+
+.button2brg {
+    background-color: #F39C89;
+}
+
+.button3brg {
+    background-color: #7F613F;
+}
+
+.button4brg {
+    background-color: #DC494F;
+}
+
