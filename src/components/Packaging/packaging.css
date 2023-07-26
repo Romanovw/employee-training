@@ -1,4 +1,4 @@
-.links-container-p {
+.links-container-pack {
     max-width: 600px;
     height: 100%;
     display: grid;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.links-container-p a {
+.links-container-pack a {
     display: flex;
     height: 99%;
     margin: 1.5px;
@@ -22,23 +22,23 @@
     padding-left: 1em;
 }
 
-.button1p {
+.button1pack {
     background-color: #E800A4;
 }
 
-.button2p {
+.button2pack {
     background-color: #84AFF4;
 }
 
-.button3p {
+.button3pack {
     background-color: #EDA257;
 }
 
-.button4p {
+.button4pack {
     background-color: #E15665;
 }
 
-.button5p {
+.button5pack {
     background-color: #37ABED;
 }
 
