@@ -18,6 +18,8 @@
     font-size: 1.5em;
     color: azure;
     font-weight: 500;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .button1 {

@@ -20,6 +20,8 @@
     font-weight: 500;
     padding-right: 1em;
     padding-left: 1em;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .button1b {
