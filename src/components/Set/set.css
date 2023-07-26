@@ -1,0 +1,59 @@
+.links-container-set {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.links-container-set a {
+    display: flex;
+    height: 99%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button1set {
+    background-color: #E7354A;
+}
+
+.button2set {
+    background-color: #E59379;
+}
+
+.button3set {
+    background-color: #E59379;
+}
+
+.button4set {
+    background-color: #E59379;
+}
+
+.button5set {
+    background-color: #3AB8F9;
+}
+
+.button6set {
+    background-color: #3AB8F9;
+}
+
+.button7set {
+    background-color: #3AB8F9;
+}
+
+.button8set {
+    background-color: #CE4DBF;
+}
+
+.button9set {
+    background-color: #CE4DBF;
+}

@@ -1,0 +1,28 @@
+.links-container-sauses {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.links-container-sauses a {
+    display: flex;
+    height: 99%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button1sauses {
+    background-color: #3c53d8;
+}
+

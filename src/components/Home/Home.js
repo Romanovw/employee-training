@@ -10,18 +10,18 @@ function Home() {
         <NavLink to="/burgers" className="button4">Burgery</NavLink>
         <NavLink to="/fries" className="button5">FRYTKI/SERVETS</NavLink>
         <NavLink to="/friesExtras" className="button6">FRYTKI Z POSYPKĄ</NavLink>
-        <a href="#" className="button7">ZESTAW OBIADOWY</a>
-        <a href="#" className="button8">KEBAB BOX</a>
-        <a href="#" className="button9">SAŁATKI</a>
-        <a href="#" className="button10">FALAFEL MENU</a>
-        <a href="#" className="button11">Kanapki Panini</a>
-        <a href="#" className="button12">Nuggetsy</a>
-        <a href="#" className="button13">DODATKI</a>
-        <a href="#" className="button14">OPAKOWANIA</a>
-        <a href="#" className="button15">Napoje</a>
-        <a href="#" className="button16">Napoje-puszka</a>
-        <a href="#" className="button17">PIWO</a>
-        <a href="#" className="button18">Sosy</a>
+        <NavLink to="/set" className="button7">ZESTAW OBIADOWY</NavLink>
+        <NavLink to="/box" className="button8">KEBAB BOX</NavLink>
+        <NavLink to="/salads" className="button9">SAŁATKI</NavLink>
+        <NavLink to="/falafel" className="button10">FALAFEL MENU</NavLink>
+        <NavLink to="/panini" className="button11">Kanapki Panini</NavLink>
+        <NavLink to="/nuggets" className="button12">Nuggetsy</NavLink>
+        <NavLink to="/extras" className="button13">DODATKI</NavLink>
+        <NavLink to="/packaging" className="button14">OPAKOWANIA</NavLink>
+        <NavLink to="/drinks" className="button15">Napoje</NavLink>
+        <NavLink to="/canDrinks" className="button16">Napoje-puszka</NavLink>
+        <NavLink to="/beer" className="button17">PIWO</NavLink>
+        <NavLink to="/sauses" className="button18">Sosy</NavLink>
       </div>
   );
 }

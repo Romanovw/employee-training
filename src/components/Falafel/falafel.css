@@ -1,0 +1,40 @@
+.links-container-fal {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.links-container-fal a {
+    display: flex;
+    height: 99%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button1fal {
+    background-color: #DC8A36;
+}
+
+.button2fal {
+    background-color: #82A5F5;
+}
+
+.button3fal {
+    background-color: #9440CC;
+}
+
+.button4fal {
+    background-color: #5E43B7;
+}
+

@@ -1,0 +1,44 @@
+.links-container-p {
+    max-width: 600px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.links-container-p a {
+    display: flex;
+    height: 99%;
+    margin: 1.5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: azure;
+    font-weight: 500;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.button1p {
+    background-color: #E800A4;
+}
+
+.button2p {
+    background-color: #84AFF4;
+}
+
+.button3p {
+    background-color: #EDA257;
+}
+
+.button4p {
+    background-color: #E15665;
+}
+
+.button5p {
+    background-color: #37ABED;
+}
+
