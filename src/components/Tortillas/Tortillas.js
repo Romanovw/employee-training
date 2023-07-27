@@ -1,4 +1,6 @@
 import "./tortillas.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Tortillas() {
     return (
       <div className="Tortillas">
@@ -10,6 +12,10 @@ function Tortillas() {
         <a href="#" className="button2t">TORTILLA Z FRYTKAMI I MIĘSEM WOŁOWE</a>
         <a href="#" className="button2t">TORTILLA Z FRYTKAMI I MIĘSEM MIESZANE</a>
         <a href="#" className="button3t">TORTILLA Z NUGGETSAMI</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

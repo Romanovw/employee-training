@@ -1,0 +1,14 @@
+
+#backButton {
+    background-color: blue;
+    font-size: 5em;
+    font-weight: 15000;
+    display: flex;
+    justify-content: center;
+}
+
+#backImg {
+width: auto;
+height: auto;
+margin: 15px;
+}

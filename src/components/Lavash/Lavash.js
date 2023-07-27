@@ -1,4 +1,6 @@
 import "./lavash.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Lavash() {
     return (
       <div className="Lavash">
@@ -10,6 +12,10 @@ function Lavash() {
         <a href="#" className="button5l">Kebab grecki</a>
         <a href="#" className="button6l">Gigant w cieście</a>
         <a href="#" className="button7l">Kebab wege/tuńczyk/łosos</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );
