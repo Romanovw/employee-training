@@ -1,4 +1,6 @@
 import "./beer.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Beer() {
     return (
       <div className="Beer">
@@ -11,6 +13,10 @@ function Beer() {
         <a href="#" className="button2beer">Corona 0%</a>
         <a href="#" className="button3beer">Corona alkoholowa</a>
         <a href="#" className="button1beer">Warka Strong</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

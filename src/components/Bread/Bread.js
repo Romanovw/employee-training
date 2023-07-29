@@ -1,4 +1,6 @@
 import "./bread.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Bread() {
     return (
       <div className="Bread">
@@ -12,6 +14,10 @@ function Bread() {
         <a href="#" className="button7b">FRYTO Bułka (bez surówek)</a>
         <a href="#" className="button8b">Big kebab</a>
         <a href="#" className="button9b">Kebab w bułce wege</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

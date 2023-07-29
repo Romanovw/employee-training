@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/employee-training/static/css/main.8515ad28.css",
-    "main.js": "/employee-training/static/js/main.17e0e17b.js",
+    "main.css": "/employee-training/static/css/main.b83158fd.css",
+    "main.js": "/employee-training/static/js/main.62198140.js",
     "static/js/787.78ed7b27.chunk.js": "/employee-training/static/js/787.78ed7b27.chunk.js",
     "index.html": "/employee-training/index.html",
-    "main.8515ad28.css.map": "/employee-training/static/css/main.8515ad28.css.map",
-    "main.17e0e17b.js.map": "/employee-training/static/js/main.17e0e17b.js.map",
+    "main.b83158fd.css.map": "/employee-training/static/css/main.b83158fd.css.map",
+    "main.62198140.js.map": "/employee-training/static/js/main.62198140.js.map",
     "787.78ed7b27.chunk.js.map": "/employee-training/static/js/787.78ed7b27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8515ad28.css",
-    "static/js/main.17e0e17b.js"
+    "static/css/main.b83158fd.css",
+    "static/js/main.62198140.js"
   ]
 }

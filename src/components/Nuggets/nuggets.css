@@ -1,3 +1,13 @@
+.Nuggets {
+    display: grid;
+    grid-template-rows: 14fr 1fr;
+    max-height: 100%;
+}
+.back {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+}
 .links-container-n {
     max-width: 600px;
     height: 100%;

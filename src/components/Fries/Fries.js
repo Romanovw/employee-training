@@ -1,4 +1,6 @@
 import "./fries.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Fries() {
     return (
       <div className="Fries">
@@ -11,6 +13,10 @@ function Fries() {
         <a href="#" className="button1f">SERWETS średni kurczak</a>
         <a href="#" className="button1f">SERWETS średni mieszany</a>
         <a href="#" className="button1f">SERWETS średni wołowy</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

@@ -1,4 +1,6 @@
 import "./set.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Set() {
     return (
       <div className="Set">
@@ -12,6 +14,10 @@ function Set() {
         <a href="#" className="button7set">ŚREDNI Zestaw Ob mięso mieszane</a>
         <a href="#" className="button8set">TORT</a>
         <a href="#" className="button9set">COLA 0,33L ZESTAW PROMOCJA</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

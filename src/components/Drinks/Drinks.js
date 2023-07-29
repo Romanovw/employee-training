@@ -1,4 +1,6 @@
 import "./drinks.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Drinks() {
     return (
       <div className="Drinks">
@@ -14,6 +16,10 @@ function Drinks() {
         <a href="#" className="button2d">Herbata</a>
         <a href="#" className="button3d">Ayran</a>
         <a href="#" className="button4d">Frytki małe GRATIS</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

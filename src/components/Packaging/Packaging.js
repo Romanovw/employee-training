@@ -1,4 +1,6 @@
 import "./packaging.css"
+import BackButton from "../backButton/BackButton";
+import HomeButton from "../HomeButton/HomeButton";
 function Packaging() {
     return (
       <div className="Packaging">
@@ -8,6 +10,10 @@ function Packaging() {
         <a href="#" className="button3pack">KOSZT DOSTAWY UBER/ PYSZNE/ GLOVO</a>
         <a href="#" className="button4pack">OPAKOWANIE</a>
         <a href="#" className="button5pack">USŁUGA Gastronomiczna</a>
+        </div>
+        <div className="back">
+        <HomeButton/>
+        <BackButton/>
         </div>
       </div>
     );

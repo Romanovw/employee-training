@@ -1,6 +1,6 @@
 .Tortillas {
     display: grid;
-    grid-template-rows: 10fr 1fr;
+    grid-template-rows: 14fr 1fr;
     max-height: 100%;
 }
 .back {
