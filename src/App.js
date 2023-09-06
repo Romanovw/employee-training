@@ -1,5 +1,6 @@
 import "./styles/main.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./components/Home/Home";
 import Tortillas from "./components/Tortillas/Tortillas";
 import Lavash from "./components/Lavash/Lavash";
@@ -24,6 +25,7 @@ import LavashMegaRecipe from "./components/Lavash/LavashMegaRecipe";
 function App() {
   return (
     <div className="App">
+      return(
       <Router>
         <Routes>
         <Route path="/employee-training" element={<Home/>}/>
@@ -48,6 +50,7 @@ function App() {
         <Route path="/lavash/mega" element={<LavashMegaRecipe/>}/>
         </Routes>
       </Router>
+      );
     </div>
   );
 }
