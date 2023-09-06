@@ -19,6 +19,7 @@ import Drinks from "./components/Drinks/Drinks";
 import CanDrinks from "./components/CanDrinks/CanDrinks";
 import Beer from "./components/Beer/Beer";
 import Sauses from "./components/Sauces/Sauses";
+import LavashMegaRecipe from "./components/Lavash/LavashMegaRecipe";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path="/canDrinks" element={<CanDrinks/>}/>
         <Route path="/beer" element={<Beer/>}/>
         <Route path="/sauses" element={<Sauses/>}/>
+        <Route path="/lavash/mega" element={<LavashMegaRecipe/>}/>
         </Routes>
       </Router>
     </div>

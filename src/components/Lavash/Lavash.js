@@ -1,11 +1,13 @@
 import "./lavash.css"
 import BackButton from "../backButton/BackButton";
 import HomeButton from "../HomeButton/HomeButton";
+import { NavLink } from "react-router-dom";
+
 function Lavash() {
     return (
       <div className="Lavash">
         <div className="links-container-l">
-        <a href="#" className="button1l">MEGA GIGANT w cieście</a>
+        <NavLink to="/lavash/mega" className="button1l">MEGA GIGANT w cieście</NavLink>
         <a href="#" className="button2l">Gigant w cieście z frytkami</a>
         <a href="#" className="button3l">Kebab w cieście</a>
         <a href="#" className="button4l">Kebab studencki</a>
