@@ -25,7 +25,6 @@ import LavashMegaRecipe from "./components/Lavash/LavashMegaRecipe";
 function App() {
   return (
     <div className="App">
-      return(
       <Router>
         <Routes>
         <Route path="/employee-training" element={<Home/>}/>
@@ -50,7 +49,6 @@ function App() {
         <Route path="/lavash/mega" element={<LavashMegaRecipe/>}/>
         </Routes>
       </Router>
-      );
     </div>
   );
 }
